@@ -1,0 +1,21 @@
+a{
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+// secondary btn
+.secondary_btn{
+	background-color: #fff;
+	color: $secondary-color;
+	border: 1px solid $secondary-color;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: 0.2s;
+		&:hover{
+		background-color: $secondary-color;
+		color: #fff;
+		border-color: #fff;
+		}
+}
