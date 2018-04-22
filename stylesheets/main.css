@@ -1,33 +1,57 @@
 /* line 2, ../sass/base/_base.scss */
+body {
+  background-color: #e5e5e5;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
+/* line 8, ../sass/base/_base.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 8, ../sass/base/_base.scss */
+/* line 14, ../sass/base/_base.scss */
 .secondary_btn {
-  background-color: #fff;
-  color: #222;
-  border: 1px solid #222;
+  background-color: #e5e5e5;
+  color: #ff6633;
+  border: 1px solid #ff6633;
   border-radius: 0;
   text-transform: uppercase;
   font-weight: bold;
   transition: 0.2s;
+  margin-top: 10px;
 }
-/* line 16, ../sass/base/_base.scss */
+/* line 23, ../sass/base/_base.scss */
 .secondary_btn:hover {
-  background-color: #222;
-  color: #fff;
-  border-color: #fff;
+  background-color: #ff6633;
+  color: #222;
+  border-color: #222;
+}
+
+/* line 31, ../sass/base/_base.scss */
+.section-padding {
+  padding: 40px 0;
+}
+
+/* line 36, ../sass/base/_base.scss */
+.section-title {
+  color: #ff6633;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 10px 0;
 }
 
 /* line 1, ../sass/module/_topnav.scss */
 .topnav {
   background-color: #ff6633;
   padding: 10px 0;
-  height: 70px;
+}
+/* line 4, ../sass/module/_topnav.scss */
+.topnav .logo {
+  background-color: red;
 }
 
-/* line 8, ../sass/module/_topnav.scss */
+/* line 10, ../sass/module/_topnav.scss */
 .smGlobalBtn {
   /* global button class */
   display: inline-block;
@@ -49,12 +73,12 @@ a:hover {
 }
 
 /* facebook button class*/
-/* line 28, ../sass/module/_topnav.scss */
+/* line 30, ../sass/module/_topnav.scss */
 .facebookBtn {
   background: #4060A5;
 }
 
-/* line 32, ../sass/module/_topnav.scss */
+/* line 34, ../sass/module/_topnav.scss */
 .facebookBtn:before {
   /* use :before to add the relevant icons */
   font-family: "FontAwesome";
@@ -62,46 +86,105 @@ a:hover {
   /* add facebook icon */
 }
 
-/* line 37, ../sass/module/_topnav.scss */
+/* line 39, ../sass/module/_topnav.scss */
 .facebookBtn:hover {
   color: #4060A5;
   background: #fff;
 }
 
 /* twitter button class*/
-/* line 43, ../sass/module/_topnav.scss */
+/* line 45, ../sass/module/_topnav.scss */
 .twitterBtn {
   background: #00ABE3;
 }
 
-/* line 47, ../sass/module/_topnav.scss */
+/* line 49, ../sass/module/_topnav.scss */
 .twitterBtn:before {
   font-family: "FontAwesome";
   content: "\f099";
   /* add twitter icon */
 }
 
-/* line 52, ../sass/module/_topnav.scss */
+/* line 54, ../sass/module/_topnav.scss */
 .twitterBtn:hover {
   color: #00ABE3;
   background: #fff;
 }
 
 /* google plus button class*/
-/* line 58, ../sass/module/_topnav.scss */
+/* line 60, ../sass/module/_topnav.scss */
 .googleplusBtn {
   background: #e64522;
 }
 
-/* line 62, ../sass/module/_topnav.scss */
+/* line 64, ../sass/module/_topnav.scss */
 .googleplusBtn:before {
   font-family: "FontAwesome";
   content: "\f0d5";
   /* add googleplus icon */
 }
 
-/* line 67, ../sass/module/_topnav.scss */
+/* line 69, ../sass/module/_topnav.scss */
 .googleplusBtn:hover {
   color: #e64522;
   background: #fff;
+}
+
+/* line 1, ../sass/module/_navbar.scss */
+.navbar-inverse {
+  border-radius: 0;
+  margin: 0;
+}
+/* line 5, ../sass/module/_navbar.scss */
+.navbar-inverse ul li a {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 3, ../sass/module/_team.scss */
+.team--content img {
+  border-radius: 50%;
+}
+/* line 6, ../sass/module/_team.scss */
+.team--content h3, .team--content p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 13, ../sass/module/_team.scss */
+.social a {
+  font-size: 40px;
+  padding: 0 10px;
+  color: #ff6633;
+  transition: 0.2s;
+}
+/* line 18, ../sass/module/_team.scss */
+.social a:hover {
+  color: #222;
+}
+
+/* line 2, ../sass/module/_gallery.scss */
+.gallery .thumbnail {
+  background-color: #ff6633;
+  padding: 0;
+  border-radius: 10px;
+}
+/* line 6, ../sass/module/_gallery.scss */
+.gallery .thumbnail h3, .gallery .thumbnail p {
+  color: #222;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* line 2, ../sass/module/_portfolio.scss */
+.portfolio--content {
+  padding: 20px 0;
+}
+/* line 5, ../sass/module/_portfolio.scss */
+.portfolio--content__title h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ff6633;
 }

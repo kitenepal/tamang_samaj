@@ -1,0 +1,12 @@
+.portfolio{
+	&--content{
+		padding: 20px 0;
+		&__title{
+			h2{
+				text-transform: uppercase;
+				font-weight: bold;
+				color: $primary-color;
+			}
+		}
+	}
+}

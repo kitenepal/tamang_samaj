@@ -1,0 +1,22 @@
+.team{
+	&--content{
+		img{
+			border-radius: 50%;
+		}
+		h3, p{
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+	}
+}
+.social{
+	a{
+		font-size: 40px;
+		padding: 0 10px;
+		color: $primary-color;
+		transition: 0.2s;
+		&:hover{
+			color: $secondary-color;
+		}
+	}
+}

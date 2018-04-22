@@ -1,3 +1,9 @@
+
+body{
+	background-color: #e5e5e5;
+	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+}
+
 a{
 	&:hover{
 		text-decoration: none;
@@ -6,16 +12,31 @@ a{
 
 // secondary btn
 .secondary_btn{
-	background-color: #fff;
-	color: $secondary-color;
-	border: 1px solid $secondary-color;
+	background-color: #e5e5e5;
+	color: $primary-color;
+	border: 1px solid $primary-color;
 	border-radius: 0;
 	text-transform: uppercase;
 	font-weight: bold;
 	transition: 0.2s;
+	margin-top: 10px;
 		&:hover{
-		background-color: $secondary-color;
-		color: #fff;
-		border-color: #fff;
+		background-color: $primary-color;
+		color: $secondary-color;
+		border-color: $secondary-color;
 		}
+}
+
+// section padding
+.section-padding{
+	padding: $section-padding;
+}
+
+// section-title
+.section-title{
+	color: $primary-color;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+	padding: 10px 0;
 }
