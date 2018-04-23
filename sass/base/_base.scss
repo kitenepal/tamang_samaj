@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
 
 body{
 	background-color: #e5e5e5;
 	background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+	font-family: 'ABeeZee', sans-serif;
 }
 
 a{
@@ -42,6 +45,12 @@ a{
 	color: $primary-color;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-decoration: underline;
 	padding: 10px 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+// siderbar heading
+.sidebar-title{
+	text-transform: uppercase;
+	font-weight: bold;
 }

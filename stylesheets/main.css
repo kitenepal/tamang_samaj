@@ -1,15 +1,18 @@
-/* line 2, ../sass/base/_base.scss */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:700");
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+/* line 4, ../sass/base/_base.scss */
 body {
   background-color: #e5e5e5;
   background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  font-family: 'ABeeZee', sans-serif;
 }
 
-/* line 8, ../sass/base/_base.scss */
+/* line 11, ../sass/base/_base.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 14, ../sass/base/_base.scss */
+/* line 17, ../sass/base/_base.scss */
 .secondary_btn {
   background-color: #e5e5e5;
   color: #ff6633;
@@ -20,30 +23,36 @@ a:hover {
   transition: 0.2s;
   margin-top: 10px;
 }
-/* line 23, ../sass/base/_base.scss */
+/* line 26, ../sass/base/_base.scss */
 .secondary_btn:hover {
   background-color: #ff6633;
   color: #222;
   border-color: #222;
 }
 
-/* line 31, ../sass/base/_base.scss */
+/* line 34, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
 }
 
-/* line 36, ../sass/base/_base.scss */
+/* line 39, ../sass/base/_base.scss */
 .sidebar-padding {
   padding: 20px 0;
 }
 
-/* line 41, ../sass/base/_base.scss */
+/* line 44, ../sass/base/_base.scss */
 .section-title {
   color: #ff6633;
   font-weight: bold;
   text-transform: uppercase;
-  text-decoration: underline;
   padding: 10px 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* line 53, ../sass/base/_base.scss */
+.sidebar-title {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* line 1, ../sass/module/_topnav.scss */
@@ -198,7 +207,7 @@ a:hover {
 }
 /* line 6, ../sass/module/_gallery.scss */
 .gallery .thumbnail h3, .gallery .thumbnail p {
-  color: #222;
+  color: #e5e5e5;
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
