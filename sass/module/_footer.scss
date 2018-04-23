@@ -1,12 +1,41 @@
 footer{
 	background-color: $secondary-color;
 	color: $primary-color;
+	margin: 0;
+	.footer-abt_us{
+		.smGlobalBtn{
+			margin: 5px;
+		}
+	}
 	h3{
 		text-transform: uppercase;
+		text-decoration: underline;
+	}
+	.pagenav{
+		ul{
+			display: inline;
+			margin: 0;
+			padding: 0;
+			li{
+			list-style: none;
+				a{
+					color: $primary-color;
+					text-transform: uppercase;
+					&:hover{
+						color: #fff;
+					}
+				}
+			}
+		}
 	}
 }
 
 .copyright{
 	background-color: $primary-color;
 	color: #fff;
+	padding: 10px 0;
+	text-transform: uppercase;
+	h3{
+		margin: 0;
+	}
 }
