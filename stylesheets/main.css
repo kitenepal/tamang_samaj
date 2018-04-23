@@ -33,6 +33,11 @@ a:hover {
 }
 
 /* line 36, ../sass/base/_base.scss */
+.sidebar-padding {
+  padding: 20px 0;
+}
+
+/* line 41, ../sass/base/_base.scss */
 .section-title {
   color: #ff6633;
   font-weight: bold;
@@ -142,6 +147,12 @@ a:hover {
   font-weight: bold;
 }
 
+/* line 1, ../sass/module/_sidebar.scss */
+.side-fixedBar {
+  background-color: #ff6633;
+  color: #fff;
+}
+
 /* line 3, ../sass/module/_team.scss */
 .team--content img {
   border-radius: 50%;
@@ -162,6 +173,21 @@ a:hover {
 /* line 18, ../sass/module/_team.scss */
 .social a:hover {
   color: #222;
+}
+
+/* line 2, ../sass/module/_appreciation.scss */
+#appreciation .nav a small {
+  display: block;
+}
+
+/* line 5, ../sass/module/_appreciation.scss */
+#appreciation .nav {
+  background: #e5e5e5;
+}
+
+/* line 9, ../sass/module/_appreciation.scss */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #222;
 }
 
 /* line 2, ../sass/module/_gallery.scss */
