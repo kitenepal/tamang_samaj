@@ -323,3 +323,8 @@ footer .pagenav ul li a:hover {
 .copyright h3 {
   margin: 0;
 }
+
+/* line 1, ../sass/module/page/_aboutpage.scss */
+.img-padding {
+  padding: 40px 0px 0px 0px;
+}
