@@ -59,19 +59,20 @@ a:hover {
 .topnav {
   background-color: #ff6633;
   padding: 10px 0;
+  margin: 0;
 }
-/* line 4, ../sass/module/_topnav.scss */
+/* line 5, ../sass/module/_topnav.scss */
 .topnav .logo {
   background-color: red;
 }
 
-/* line 8, ../sass/module/_topnav.scss */
+/* line 9, ../sass/module/_topnav.scss */
 .topnav-btn {
   right: 0;
   position: absolute;
 }
 
-/* line 14, ../sass/module/_topnav.scss */
+/* line 15, ../sass/module/_topnav.scss */
 .smGlobalBtn {
   /* global button class */
   display: inline-block;
@@ -93,12 +94,12 @@ a:hover {
 }
 
 /* facebook button class*/
-/* line 34, ../sass/module/_topnav.scss */
+/* line 35, ../sass/module/_topnav.scss */
 .facebookBtn {
   background: #4060A5;
 }
 
-/* line 38, ../sass/module/_topnav.scss */
+/* line 39, ../sass/module/_topnav.scss */
 .facebookBtn:before {
   /* use :before to add the relevant icons */
   font-family: "FontAwesome";
@@ -106,45 +107,45 @@ a:hover {
   /* add facebook icon */
 }
 
-/* line 43, ../sass/module/_topnav.scss */
+/* line 44, ../sass/module/_topnav.scss */
 .facebookBtn:hover {
   color: #4060A5;
   background: #fff;
 }
 
 /* twitter button class*/
-/* line 49, ../sass/module/_topnav.scss */
+/* line 50, ../sass/module/_topnav.scss */
 .twitterBtn {
   background: #00ABE3;
 }
 
-/* line 53, ../sass/module/_topnav.scss */
+/* line 54, ../sass/module/_topnav.scss */
 .twitterBtn:before {
   font-family: "FontAwesome";
   content: "\f099";
   /* add twitter icon */
 }
 
-/* line 58, ../sass/module/_topnav.scss */
+/* line 59, ../sass/module/_topnav.scss */
 .twitterBtn:hover {
   color: #00ABE3;
   background: #fff;
 }
 
 /* google plus button class*/
-/* line 64, ../sass/module/_topnav.scss */
+/* line 65, ../sass/module/_topnav.scss */
 .googleplusBtn {
   background: #e64522;
 }
 
-/* line 68, ../sass/module/_topnav.scss */
+/* line 69, ../sass/module/_topnav.scss */
 .googleplusBtn:before {
   font-family: "FontAwesome";
   content: "\f0d5";
   /* add googleplus icon */
 }
 
-/* line 73, ../sass/module/_topnav.scss */
+/* line 74, ../sass/module/_topnav.scss */
 .googleplusBtn:hover {
   color: #e64522;
   background: #fff;
@@ -176,6 +177,13 @@ a:hover {
   z-index: 99;
 }
 
+@media (min-width: 768px) {
+  /* line 2, ../sass/module/_carousel.scss */
+  .carousel {
+    height: 80vh;
+    overflow: hidden;
+  }
+}
 /* line 1, ../sass/module/_sidebar.scss */
 .side-fixedBar {
   background-color: #ff6633;
