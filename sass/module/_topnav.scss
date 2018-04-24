@@ -6,6 +6,11 @@
 		background-color: red;
 	}
 }
+@media ("max-width: 750px"){
+  .topnav{
+    text-align: center;
+  }
+}
 
 // social media
 .smGlobalBtn{ /* global button class */
