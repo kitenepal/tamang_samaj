@@ -65,7 +65,13 @@ a:hover {
   background-color: red;
 }
 
-/* line 10, ../sass/module/_topnav.scss */
+/* line 8, ../sass/module/_topnav.scss */
+.topnav-btn {
+  right: 0;
+  position: absolute;
+}
+
+/* line 14, ../sass/module/_topnav.scss */
 .smGlobalBtn {
   /* global button class */
   display: inline-block;
@@ -87,12 +93,12 @@ a:hover {
 }
 
 /* facebook button class*/
-/* line 30, ../sass/module/_topnav.scss */
+/* line 34, ../sass/module/_topnav.scss */
 .facebookBtn {
   background: #4060A5;
 }
 
-/* line 34, ../sass/module/_topnav.scss */
+/* line 38, ../sass/module/_topnav.scss */
 .facebookBtn:before {
   /* use :before to add the relevant icons */
   font-family: "FontAwesome";
@@ -100,45 +106,45 @@ a:hover {
   /* add facebook icon */
 }
 
-/* line 39, ../sass/module/_topnav.scss */
+/* line 43, ../sass/module/_topnav.scss */
 .facebookBtn:hover {
   color: #4060A5;
   background: #fff;
 }
 
 /* twitter button class*/
-/* line 45, ../sass/module/_topnav.scss */
+/* line 49, ../sass/module/_topnav.scss */
 .twitterBtn {
   background: #00ABE3;
 }
 
-/* line 49, ../sass/module/_topnav.scss */
+/* line 53, ../sass/module/_topnav.scss */
 .twitterBtn:before {
   font-family: "FontAwesome";
   content: "\f099";
   /* add twitter icon */
 }
 
-/* line 54, ../sass/module/_topnav.scss */
+/* line 58, ../sass/module/_topnav.scss */
 .twitterBtn:hover {
   color: #00ABE3;
   background: #fff;
 }
 
 /* google plus button class*/
-/* line 60, ../sass/module/_topnav.scss */
+/* line 64, ../sass/module/_topnav.scss */
 .googleplusBtn {
   background: #e64522;
 }
 
-/* line 64, ../sass/module/_topnav.scss */
+/* line 68, ../sass/module/_topnav.scss */
 .googleplusBtn:before {
   font-family: "FontAwesome";
   content: "\f0d5";
   /* add googleplus icon */
 }
 
-/* line 69, ../sass/module/_topnav.scss */
+/* line 73, ../sass/module/_topnav.scss */
 .googleplusBtn:hover {
   color: #e64522;
   background: #fff;
@@ -149,11 +155,25 @@ a:hover {
   border-radius: 0;
   margin: 0;
 }
-/* line 5, ../sass/module/_navbar.scss */
+/* line 6, ../sass/module/_navbar.scss */
 .navbar-inverse ul li a {
   color: #fff !important;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  /* line 15, ../sass/module/_navbar.scss */
+  .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-left: -30px;
+  }
+}
+/* line 20, ../sass/module/_navbar.scss */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
 }
 
 /* line 1, ../sass/module/_sidebar.scss */

@@ -1,5 +1,6 @@
 .navbar-inverse{
 	border-radius: 0;
+	// border-bottom-color: $primary-color;
 	margin: 0;
 	ul li{
 		a{
@@ -8,4 +9,17 @@
 			font-weight: bold;
 		}
 	}
+}
+
+@media ("min-width: 768px") {
+	.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+	margin-left: -30px;
+}
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
 }
