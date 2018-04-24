@@ -66,13 +66,7 @@ a:hover {
   background-color: red;
 }
 
-/* line 9, ../sass/module/_topnav.scss */
-.topnav-btn {
-  right: 0;
-  position: absolute;
-}
-
-/* line 15, ../sass/module/_topnav.scss */
+/* line 11, ../sass/module/_topnav.scss */
 .smGlobalBtn {
   /* global button class */
   display: inline-block;
@@ -94,12 +88,12 @@ a:hover {
 }
 
 /* facebook button class*/
-/* line 35, ../sass/module/_topnav.scss */
+/* line 31, ../sass/module/_topnav.scss */
 .facebookBtn {
   background: #4060A5;
 }
 
-/* line 39, ../sass/module/_topnav.scss */
+/* line 35, ../sass/module/_topnav.scss */
 .facebookBtn:before {
   /* use :before to add the relevant icons */
   font-family: "FontAwesome";
@@ -107,45 +101,45 @@ a:hover {
   /* add facebook icon */
 }
 
-/* line 44, ../sass/module/_topnav.scss */
+/* line 40, ../sass/module/_topnav.scss */
 .facebookBtn:hover {
   color: #4060A5;
   background: #fff;
 }
 
 /* twitter button class*/
-/* line 50, ../sass/module/_topnav.scss */
+/* line 46, ../sass/module/_topnav.scss */
 .twitterBtn {
   background: #00ABE3;
 }
 
-/* line 54, ../sass/module/_topnav.scss */
+/* line 50, ../sass/module/_topnav.scss */
 .twitterBtn:before {
   font-family: "FontAwesome";
   content: "\f099";
   /* add twitter icon */
 }
 
-/* line 59, ../sass/module/_topnav.scss */
+/* line 55, ../sass/module/_topnav.scss */
 .twitterBtn:hover {
   color: #00ABE3;
   background: #fff;
 }
 
 /* google plus button class*/
-/* line 65, ../sass/module/_topnav.scss */
+/* line 61, ../sass/module/_topnav.scss */
 .googleplusBtn {
   background: #e64522;
 }
 
-/* line 69, ../sass/module/_topnav.scss */
+/* line 65, ../sass/module/_topnav.scss */
 .googleplusBtn:before {
   font-family: "FontAwesome";
   content: "\f0d5";
   /* add googleplus icon */
 }
 
-/* line 74, ../sass/module/_topnav.scss */
+/* line 70, ../sass/module/_topnav.scss */
 .googleplusBtn:hover {
   color: #e64522;
   background: #fff;
@@ -177,9 +171,20 @@ a:hover {
   z-index: 99;
 }
 
+/* line 26, ../sass/module/_navbar.scss */
+.sticky + .heroslider {
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  /* line 32, ../sass/module/_navbar.scss */
+  .sticky + .heroslider {
+    padding-top: 60px;
+  }
+}
 @media (min-width: 768px) {
-  /* line 2, ../sass/module/_carousel.scss */
-  .carousel {
+  /* line 3, ../sass/module/_carousel.scss */
+  .heroslider .carousel {
     height: 80vh;
     overflow: hidden;
   }

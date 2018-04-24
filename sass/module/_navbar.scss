@@ -23,3 +23,13 @@
   width: 100%;
   z-index: 99;
 }
+.sticky + .heroslider {
+  padding-top: 50px;
+}
+
+
+@media ("max-width: 768px"){
+	.sticky + .heroslider {
+  padding-top: 60px;
+}
+}
