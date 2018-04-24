@@ -319,3 +319,163 @@ footer .pagenav ul li a:hover {
 .img-padding {
   padding: 40px 0px 0px 0px;
 }
+
+/* line 1, ../sass/module/page/_gallerypadding.scss */
+.gallery-padding {
+  padding: 15px 0px;
+}
+
+/* line 5, ../sass/module/page/_gallerypadding.scss */
+.gallery-margin {
+  margin: 15px 0px;
+}
+
+/* line 9, ../sass/module/page/_gallerypadding.scss */
+.row > .column {
+  padding: 0 8px;
+}
+
+/* line 13, ../sass/module/page/_gallerypadding.scss */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 19, ../sass/module/page/_gallerypadding.scss */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+/* line 25, ../sass/module/page/_gallerypadding.scss */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+/* line 39, ../sass/module/page/_gallerypadding.scss */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+/* line 49, ../sass/module/page/_gallerypadding.scss */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* line 58, ../sass/module/page/_gallerypadding.scss */
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 65, ../sass/module/page/_gallerypadding.scss */
+.mySlides {
+  display: none;
+}
+
+/* line 69, ../sass/module/page/_gallerypadding.scss */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+/* line 74, ../sass/module/page/_gallerypadding.scss */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+/* line 92, ../sass/module/page/_gallerypadding.scss */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/* line 98, ../sass/module/page/_gallerypadding.scss */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+/* line 104, ../sass/module/page/_gallerypadding.scss */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* line 112, ../sass/module/page/_gallerypadding.scss */
+img {
+  margin-bottom: -4px;
+}
+
+/* line 116, ../sass/module/page/_gallerypadding.scss */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+/* line 123, ../sass/module/page/_gallerypadding.scss */
+.demo {
+  opacity: 0.6;
+}
+
+/* line 127, ../sass/module/page/_gallerypadding.scss */
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* line 132, ../sass/module/page/_gallerypadding.scss */
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+/* line 136, ../sass/module/page/_gallerypadding.scss */
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
