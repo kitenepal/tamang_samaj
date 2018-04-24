@@ -282,44 +282,45 @@ footer {
   background-color: #222;
   color: #ff6633;
   margin: 0;
+  border-top: 1px solid #ff6633;
 }
-/* line 6, ../sass/module/_footer.scss */
+/* line 7, ../sass/module/_footer.scss */
 footer .footer-abt_us .smGlobalBtn {
   margin: 5px;
 }
-/* line 10, ../sass/module/_footer.scss */
+/* line 11, ../sass/module/_footer.scss */
 footer h3 {
   text-transform: uppercase;
   text-decoration: underline;
 }
-/* line 15, ../sass/module/_footer.scss */
+/* line 16, ../sass/module/_footer.scss */
 footer .pagenav ul {
   display: inline;
   margin: 0;
   padding: 0;
 }
-/* line 19, ../sass/module/_footer.scss */
+/* line 20, ../sass/module/_footer.scss */
 footer .pagenav ul li {
   list-style: none;
 }
-/* line 21, ../sass/module/_footer.scss */
+/* line 22, ../sass/module/_footer.scss */
 footer .pagenav ul li a {
   color: #ff6633;
   text-transform: uppercase;
 }
-/* line 24, ../sass/module/_footer.scss */
+/* line 25, ../sass/module/_footer.scss */
 footer .pagenav ul li a:hover {
   color: #fff;
 }
 
-/* line 33, ../sass/module/_footer.scss */
+/* line 34, ../sass/module/_footer.scss */
 .copyright {
   background-color: #ff6633;
   color: #fff;
   padding: 10px 0;
   text-transform: uppercase;
 }
-/* line 38, ../sass/module/_footer.scss */
+/* line 39, ../sass/module/_footer.scss */
 .copyright h3 {
   margin: 0;
 }
