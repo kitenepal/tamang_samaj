@@ -2,4 +2,9 @@
 	// background-color: $primary-color;
 	background: linear-gradient(to bottom, #FF6633 0%, #fe8c00 50%, #FF6633 100%);
 	color: #fff;
+	#donor_slider{
+		.carousel-control{
+			width: 0;
+		}
+	}
 }
