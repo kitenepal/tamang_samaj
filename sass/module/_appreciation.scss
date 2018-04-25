@@ -1,9 +1,13 @@
 
-#appreciation .nav a small {
+#appreciation .nav a {
     display:block;
 }
 #appreciation .nav {
 	background:#e5e5e5;
+}
+
+#appreciation .nav-pills > li > a{
+	border-radius: 0;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
