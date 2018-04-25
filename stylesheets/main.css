@@ -286,48 +286,50 @@ a:hover {
 
 /* line 1, ../sass/module/_footer.scss */
 footer {
-  background-color: #222;
+  background-color: #1c1c1c;
+  background-image: url("https://www.transparenttextures.com/patterns/football-no-lines.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: #ff6633;
   margin: 0;
   border-top: 1px solid #ff6633;
 }
-/* line 7, ../sass/module/_footer.scss */
+/* line 10, ../sass/module/_footer.scss */
 footer .footer-abt_us .smGlobalBtn {
   margin: 5px;
 }
-/* line 11, ../sass/module/_footer.scss */
+/* line 14, ../sass/module/_footer.scss */
 footer h3 {
   text-transform: uppercase;
   text-decoration: underline;
 }
-/* line 16, ../sass/module/_footer.scss */
+/* line 19, ../sass/module/_footer.scss */
 footer .pagenav ul {
   display: inline;
   margin: 0;
   padding: 0;
 }
-/* line 20, ../sass/module/_footer.scss */
+/* line 23, ../sass/module/_footer.scss */
 footer .pagenav ul li {
   list-style: none;
 }
-/* line 22, ../sass/module/_footer.scss */
+/* line 25, ../sass/module/_footer.scss */
 footer .pagenav ul li a {
   color: #ff6633;
   text-transform: uppercase;
 }
-/* line 25, ../sass/module/_footer.scss */
+/* line 28, ../sass/module/_footer.scss */
 footer .pagenav ul li a:hover {
   color: #fff;
 }
 
-/* line 34, ../sass/module/_footer.scss */
+/* line 37, ../sass/module/_footer.scss */
 .copyright {
   background-color: #ff6633;
   color: #fff;
   padding: 10px 0;
   text-transform: uppercase;
 }
-/* line 39, ../sass/module/_footer.scss */
+/* line 42, ../sass/module/_footer.scss */
 .copyright h3 {
   margin: 0;
 }
