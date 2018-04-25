@@ -197,7 +197,7 @@ a:hover {
 }
 /* line 1, ../sass/module/_sidebar.scss */
 .side-fixedBar {
-  background-color: #ff6633;
+  background: linear-gradient(to bottom, #FF6633 0%, #fe8c00 50%, #FF6633 100%);
   color: #fff;
 }
 
