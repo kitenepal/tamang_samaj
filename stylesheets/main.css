@@ -286,8 +286,8 @@ a:hover {
 
 /* line 1, ../sass/module/_footer.scss */
 footer {
-  background-color: #1c1c1c;
-  background-image: url("https://www.transparenttextures.com/patterns/football-no-lines.png");
+  background-color: #121212;
+  background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: #ff6633;
   margin: 0;
