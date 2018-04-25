@@ -22,7 +22,7 @@ a{
 	text-transform: uppercase;
 	font-weight: bold;
 	transition: 0.2s;
-	margin-top: 10px;
+	margin: 10px auto;
 		&:hover, &:focus, &:active, &:visited{
 		background-color: $primary-color;
 		color: #e5e5e5;

@@ -21,7 +21,7 @@ a:hover {
   text-transform: uppercase;
   font-weight: bold;
   transition: 0.2s;
-  margin-top: 10px;
+  margin: 10px auto;
 }
 /* line 26, ../sass/base/_base.scss */
 .secondary_btn:hover, .secondary_btn:focus, .secondary_btn:active, .secondary_btn:visited {
