@@ -24,23 +24,24 @@ a:hover {
   margin-top: 10px;
 }
 /* line 26, ../sass/base/_base.scss */
-.secondary_btn:hover {
+.secondary_btn:hover, .secondary_btn:focus, .secondary_btn:active, .secondary_btn:visited {
   background-color: #ff6633;
-  color: #222;
+  color: #e5e5e5;
   border-color: #222;
+  outline: none;
 }
 
-/* line 34, ../sass/base/_base.scss */
+/* line 35, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px 0;
 }
 
-/* line 39, ../sass/base/_base.scss */
+/* line 40, ../sass/base/_base.scss */
 .sidebar-padding {
   padding: 20px 0;
 }
 
-/* line 44, ../sass/base/_base.scss */
+/* line 45, ../sass/base/_base.scss */
 .section-title {
   color: #ff6633;
   font-weight: bold;
@@ -49,10 +50,11 @@ a:hover {
   font-family: 'Roboto Slab', serif;
 }
 
-/* line 53, ../sass/base/_base.scss */
+/* line 54, ../sass/base/_base.scss */
 .sidebar-title {
   text-transform: uppercase;
   font-weight: bold;
+  padding: 10px 0;
 }
 
 /* line 1, ../sass/module/_topnav.scss */
@@ -170,7 +172,7 @@ a:hover {
   }
 }
 /* line 20, ../sass/module/_navbar.scss */
-.sticky {
+.stickyNav {
   position: fixed;
   top: 0;
   width: 100%;
@@ -178,13 +180,13 @@ a:hover {
 }
 
 /* line 26, ../sass/module/_navbar.scss */
-.sticky + .heroslider {
+.stickyNav + .heroslider {
   padding-top: 50px;
 }
 
 @media (max-width: 768px) {
   /* line 32, ../sass/module/_navbar.scss */
-  .sticky + .heroslider {
+  .stickyNav + .heroslider {
     padding-top: 60px;
   }
 }
@@ -224,7 +226,7 @@ a:hover {
 }
 
 /* line 2, ../sass/module/_appreciation.scss */
-#appreciation .nav a small {
+#appreciation .nav a {
   display: block;
 }
 
@@ -234,6 +236,11 @@ a:hover {
 }
 
 /* line 9, ../sass/module/_appreciation.scss */
+#appreciation .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* line 13, ../sass/module/_appreciation.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background-color: #222;
 }

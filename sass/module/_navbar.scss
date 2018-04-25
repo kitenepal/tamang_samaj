@@ -17,19 +17,19 @@
 }
 }
 
-.sticky {
+.stickyNav {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 99;
 }
-.sticky + .heroslider {
+.stickyNav + .heroslider {
   padding-top: 50px;
 }
 
 
 @media ("max-width: 768px"){
-	.sticky + .heroslider {
+	.stickyNav + .heroslider {
   padding-top: 60px;
 }
 }

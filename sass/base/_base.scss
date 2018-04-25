@@ -23,10 +23,11 @@ a{
 	font-weight: bold;
 	transition: 0.2s;
 	margin-top: 10px;
-		&:hover{
+		&:hover, &:focus, &:active, &:visited{
 		background-color: $primary-color;
-		color: $secondary-color;
+		color: #e5e5e5;
 		border-color: $secondary-color;
+		outline: none;
 		}
 }
 
@@ -53,4 +54,5 @@ a{
 .sidebar-title{
 	text-transform: uppercase;
 	font-weight: bold;
+	padding: 10px 0;
 }
